@@ -1,0 +1,1 @@
+export { TherapistRoute } from './therapist.interface';
