@@ -1,0 +1,97 @@
+# Node modules
+node_modules/
+
+# Dependency directories
+/dist/
+/.pnp/
+.pnp.js
+
+# Environment variables and secrets
+.env
+!.env.example
+
+# TypeScript build output
+*.tsbuildinfo
+/build/
+/dist/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs and runtime data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+error.log
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*~
+*.swp
+*.swo
+*.bak
+
+# Local configuration files
+config.local.js
+*.local.json
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# Test coverage
+coverage/
+
+# Large files and databases
+*.sql
+*.sqlite
+*.dump
+
+# Yarn specific
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Git related
+.git
+.gitignore
+
+# Docker related
+!Dockerfile
+!.dockerignore
+
+# Documentation
+!README.md
+
+# Temporary files
+/tmp/
+/temp/
+
+# Cache directories
+.cache/
+.npm/
+
+# Dependency lock files (include only one)
+package-lock.json
+# yarn.lock  # Uncomment if using npm instead of yarn
+
+/uploads/
